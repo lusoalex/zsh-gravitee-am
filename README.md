@@ -3,7 +3,18 @@
 This is a custom zsh plugin to enable `graivtee-am` command from everywhere, as a wrapper of gravitee-am Makefile.  
 _It also add a few command such as plugin `gravitee-am plugin`._  
 
+_**NOTE:** This plugin require to use `-Dgravitee.home=.working/management-api` settings._  
+
 ## How to install
+
+### Clone the repository into the zsh custom plugin folder
+
+```BASH
+# Import zsh-gravitee-am plugin into oh-my-zsh
+git clone git@github.com:lusoalex/zsh-gravitee-am.git ~/.oh-my-zsh/custom/plugins/zsh-gravitee-am
+```
+
+### Enable the plugin
 
 In you `~/.zshrc` you need to export GIO_AM_HOME with as value the place where is located your repository.  
 
